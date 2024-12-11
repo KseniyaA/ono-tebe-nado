@@ -20,7 +20,6 @@
 
 .header__links-list-item {
   text-decoration: underline;
-  font-family: inherit;
   font-style: normal;
   font-size: 18px;
 }
@@ -51,7 +50,6 @@
   margin-left: 155px;
   list-style: none;
   line-height: 24.3px;
-  font-family: inherit;
   font-style: normal;
   font-size: 18px;
   letter-spacing: 0.1px;
@@ -108,7 +106,6 @@
   display: flex;
 
   text-transform: uppercase;
-  font-family: inherit;
   font-size: 22px;
   font-weight: medium;
   line-height: 28px;
@@ -156,7 +153,6 @@
 }
 
 .lots__heading {
-  font-family: inherit;
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
@@ -202,11 +198,10 @@
   height: 100%;
   margin: 0;
   padding: 51px 40px 48px 40px;
-  color: white;  
+  color: white;
 }
 
 .card__title {
-  font-family: inherit;
   font-weight: bold;
   font-size: 22px;
   text-transform: uppercase;
@@ -215,7 +210,6 @@
 }
 
 .card__text {
-  font-family: inherit;
   font-size: 20px;
   line-height: 120%;
   text-decoration: none;
@@ -225,7 +219,6 @@
 .lots__look-more-link {
   margin-top: 30px;
   margin-left: 40px;
-  font-family: inherit;
   font-size: 20px;
 }
 
@@ -264,7 +257,6 @@
 }
 
 .about__title {
-  font-family: Raleway;
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
@@ -277,7 +269,6 @@
   margin-top: 100px;
   margin-left: 20px;
 
-  font-family: Raleway;
   font-size: 20px;
   font-weight: normal;
   line-height: 24px;
@@ -293,7 +284,7 @@
   top: 326px;
   left: 50px;
   width: 1000px;
-  height: 98px; 
+  height: 98px;
   font-size: 18px;
 }
 
@@ -307,7 +298,6 @@
   flex-direction: column;
   list-style: none;
   line-height: 24.3px;
-  font-family: inherit;
   font-style: normal;
   font-size: 18px;
   letter-spacing: 0.1px;
