@@ -10,8 +10,8 @@ html {
 
 body {
   width: 1100px;
-  height: 3028px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  margin: 0;
   font-family: Raleway, sans-serif;
   position: relative;
 }
