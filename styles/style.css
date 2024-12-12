@@ -66,7 +66,6 @@
   position: relative;
   top: 165px;
   color: white;
-  font-size: 100px;
   text-transform: uppercase;
   line-height: 115%;
   letter-spacing: 3px;
@@ -75,18 +74,22 @@
 .aligned-text {
   position: relative;
   left: 50px;
+  top: 50px;
+  font-size: 100px;
 }
 
 .aligned-text_center {
   position: relative;
-  top: 12px;
+  top: 160px;
   left: 336px;
+  font-size: 100px;
 }
 
 .aligned-text_right {
   position: relative;
-  top: 17px;
+  top: 260px;
   left: 633px;
+  font-size: 100px;
 }
 
 .letter-spacing-extended {
