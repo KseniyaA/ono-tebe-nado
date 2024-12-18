@@ -62,7 +62,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,11 +71,7 @@
 
 .cover__title {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 165px;
-  margin-bottom: 124px;
+  margin: 165px 20px 135px 44px;
   color: white;
   text-transform: uppercase;
   letter-spacing: 30px;
@@ -85,24 +80,26 @@
 }
 
 .aligned-text {
+  display: block;
+  width: 100%;
   position: relative;
   text-align: start;
   line-height: 115%;
-  margin-left: 50px;
 }
 
 .aligned-text_center {
+  display: block;
+  width: min-content;
   position: relative;
   line-height: 142%;
-  text-align: center;
-  margin-left: -30px;
+  margin-left: 292px;
 }
 
 .aligned-text_right {
+  display: block;
   position: relative;
   line-height: 100%;
   text-align: end;
-  margin-right: 21px;
 }
 
 .letter-spacing-extended {
@@ -117,7 +114,7 @@
   line-height: 51px;
   color: white;
   margin-left: 78px;
-  margin-bottom: 35px;
+  margin-bottom: 48px;
   gap: 76px;
 }
 
@@ -127,28 +124,11 @@
   align-content: center;
 }
 
-.bet-button_new {
-  background-color: transparent;
-  font-size: 22px;
-  color: white;
-  border: 1px solid #fff;
-  text-transform: uppercase;
-  margin: 0 32px 0 31px;
-  z-index: 3;
-}
-
-
 .bet-button {
-  display: flex;
   position: relative;
   border: 1px solid #fff;
-  margin: 12px 0 12px;
-  padding: 0;
+  padding: 0 30px;
   z-index: 3;
-}
-
-.bet-button__title {
-  margin: 0 32px 0 31px;
   text-decoration: none;
 }
 
